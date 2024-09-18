@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .form_input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    .tombol_kirim {
+      width: 100%;
+      background-color: #500714;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .tombol_kirim:hover {
+      background-color: #4a11d8;
+    }
+
+    /* ID untuk div pembungkus form */
+    #elemen-container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <h3>Menggunakan CSS untuk Menata Formulir HTML</h3>
+
+    <div id="elemen-container">
+      <label for="nama-depan">Nama Depan</label>
+      <input
+        type="text"
+        name="namaDepan"
+        class="form_input"
+        placeholder="Nama Anda.."
+      />
+
+      <label for="nama-belakang">Nama Belakang</label>
+      <input
+        type="text"
+        name="namaBelakang"
+        class="form_input"
+        placeholder="Nama Belakang Anda.."
+      />
+
+      <label for="negara">Negara</label>
+      <select name="negara" class="form_input">
+        <option value="Indonesia">Indonesia</option>
+        <option value="China">China</option>
+        <option value="Gana">Gana</option>
+      </select>
+      <input type="submit" class="tombol_kirim" value="Kirim" />
+    </div>
+  </body>
+</html>
+``

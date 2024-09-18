@@ -1,0 +1,24 @@
+h1 {
+  color: green;
+  text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+/* Mengatur gaya untuk elemen p */
+p {
+  color: blue; /* Warna teks menjadi biru */
+  font-size: 16px; /* Ukuran teks */
+  font-family: Arial, sans-serif; /* Jenis font */
+  line-height: 1.5; /* Jarak antar baris */
+}
+
+/*  Selektor  ID */
+#judul-utama {
+  color: red;
+  text-align: center;
+}
+
+/* Selektor Class */
+.deskripsi {
+  color: blue;
+  font-size: 14px;
+}

@@ -1,0 +1,9 @@
+/* Selector ID */
+#warnatext_id {
+  color: blue;
+}
+
+/* Selector Class */
+.warnatext_class {
+  color: rgb(29, 45, 223);
+}
